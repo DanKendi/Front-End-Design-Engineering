@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 07 - Semântica Header/Footer</title>
+    <style>
+        header{
+            border: 1px solid #000;
+            background-color: #555;
+        }
+        nav{
+            background-color: #555;
+            text-align: center;
+        }
+        nav ul{
+            list-style-type: none;
+        }
+        nav ul li{
+            display: inline;
+        }
+        nav ul li a{
+            color: #fff;
+            text-decoration: none;
+            }
+        nav ul li a:hover{
+            background-color: #777;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header é o cabeçalho do site, geralmente logo, título, etc -->
+    <header>
+        <img src="" alt="logo">
+        <h1>Aula 07 Header/Footer</h1>
+
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">SERVIÇOS</a></li>
+            <li><a href="#">CONTATO</a></li>
+        </ul>
+    </nav>
+    <!-- Main define o conteúdo principal da página -->
+    <main>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, aliquam.
+        </p>
+
+    </main>
+
+    <ul type="circle">
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+    </ul>
+    <!-- Footer é o rodapé para a página | quem criou a página
+     endereço | menu de navegação(mapa) | contatos-->
+    <footer>
+        <p>Página criada por Daniel Kendi</p>
+        <!-- tag address é utilizada para representar informações de contata de uma pessoa
+         organização ou empresa. Exibindo, em itálico, podendo conter links, emials,
+         números de telefone e outros tipos de contato.  -->
+        <address>
+            Nome da empresa <br>
+            Rua das Palmeiras, 123 <br>
+            São Paulo, SP <br>
+            <a href="mailto:suporte@empresa.com">supporte@empresa.com</a><br>
+            <a href="tel:+5511912345678">+55 11 91324-5678</a>
+        </address>
+        
+    </footer>
+    
+</body>
+</html>
