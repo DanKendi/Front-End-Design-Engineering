@@ -1,0 +1,12 @@
+.alerta {
+    padding: 25px;
+    margin-top: 30px;
+    border-width: 4px;
+    border-style: solid; /* Altere para dotted, dashed, ou double para testar */
+    border-color: #ff6b6b;
+    background-color: #fff3f3;
+    color: #a10000;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    border-radius: 5px;
+}

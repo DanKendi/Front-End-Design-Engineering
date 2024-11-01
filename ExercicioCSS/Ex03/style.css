@@ -1,0 +1,18 @@
+.card-grid{
+    display: flex;
+}
+
+.card{
+    width: 250px;
+    height: 100%;
+    padding: 20px;
+    background-color: bisque;
+    border-radius: 4px;
+}
+
+.card img{
+    margin: 0 auto;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,12 @@
+.retangulo{
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 300px;
+    height: 200px;
+    background-color: aqua;
+}
+
+.retangulo p{
+    padding: 30px;
+    border: black solid 5px;
+}
